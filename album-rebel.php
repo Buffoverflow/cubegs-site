@@ -1,9 +1,6 @@
 <? 
 	$gameName = "Rebel";
-	$pageTitle = "CubeGS | Team Portfolio | $gameName";
-
 	$albumPhotosPath = "img/albums/album_rebel/";
-
 	$albumFiles = array_values(array_diff(scandir(realpath($albumPhotosPath)), array('.', '..')));
 
 	include("includes/header.php");
@@ -76,4 +73,6 @@
 		</div><!-- .anita-container -->
 	</main>
 
-<? include("includes/footer.php") ?>
+<? 
+	include("includes/footer.php") 
+?>

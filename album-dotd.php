@@ -1,9 +1,6 @@
 <? 
 	$gameName = "Dash of the Dead";
-	$pageTitle = "CubeGS | Team Portfolio | $gameName";
-
 	$albumPhotosPath = "img/albums/album_dotd/";
-
 	$albumFiles = array_values(array_diff(scandir(realpath($albumPhotosPath)), array('.', '..')));
 
 	include("includes/header.php");
@@ -35,7 +32,7 @@
                     <p>Dash of the Dead is a play to earn game already released and with a solid community. The game was released for WebGL, Android and iOS platforms. The Cube Game Studio team worked in partnership with the Digital Fusion and the Doge Dash team. The Cube Game Studio was responsible for all game developing process, that includes: Game Architecture, Complete game programming, 3D models and animations adjustments and optimizations, Back-end services using AWS Lambda and Blockchain contracts integration.
 					</p>
 					
-					<p>The full game version is not public yet, but the demo version can be played here: <a href="https://www.hello.one/arcade/dashofthedead" target="_blank">www.hello.one/arcade/dashofthedead</a>
+					<p>The full game version is not public yet, but the demo version can be played here: <a href="https://www.hello.one/arcade/dashofthedead/" target="_blank">www.hello.one/arcade/dashofthedead</a>
                 </div>
             </section>
 			
@@ -69,7 +66,7 @@
                         <h4 data-aos="fade-up" data-aos-offset="20">
                             Next Game
                         </h4>
-                        <a href="album-psg.html" class="anita-underline anita-caption" data-aos="fade-up" data-aos-delay="50" data-aos-offset="20">
+                        <a href="album-psg.php" class="anita-underline anita-caption" data-aos="fade-up" data-aos-delay="50" data-aos-offset="20">
                             PSG Football Freestyle
                         </a>
                         <div class="anita-page-background" data-src="img/albums/covers_512/album_psg.jpg"></div>
@@ -79,4 +76,6 @@
 		</div><!-- .anita-container -->
 	</main>
 
-<? include("includes/footer.php") ?>
+<? 
+	include("includes/footer.php") 
+?>
