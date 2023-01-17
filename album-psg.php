@@ -25,7 +25,7 @@
                     <h1 class="anita-page-title" data-aos="fade-up" data-aos-delay="50">PSG Football Freestyle</h1>
                     <div class="anita-post-meta anita-meta" data-aos="fade-up" data-aos-delay="100">
                         <span>Mobile</span>
-                        <span>6 Screenshots</span>
+                        <span><?= count($albumFiles) ?> Screenshots</span>
                     </div>
                 </div><!-- .anita-album-title -->
                 <div class="anita-page-intro anita-offset-left--33 anita-offset--tablet-left--25" data-aos="fade-up" data-aos-delay="150">
@@ -36,9 +36,9 @@
 					<br/>					
 					- Mobile football freestyle game where you can perform amazing tricks and juggles alongside Paris Saint-Germain football stars like Messi, Neymar Jr, Mbappé, Donnarumma, Sergio Ramos and female stars.
 					<br/>
-					Programming contribution
+					Programming contribution:
 					<br/>
-					- ???
+					- Contributions on the core gameplay loop, adding new features for the game and working on the game UI and UX.
 					<br/>
 					Link
 					<br/>

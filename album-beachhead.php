@@ -26,24 +26,16 @@
                     <h1 class="anita-page-title" data-aos="fade-up" data-aos-delay="50">BeachHead</h1>
                     <div class="anita-post-meta anita-meta" data-aos="fade-up" data-aos-delay="100">
                         <span>PC & VR</span>
-                        <span>21 Screenshots</span>
+                        <span><?= count($albumFiles) ?> Screenshots</span>
                     </div>
                 </div><!-- .anita-album-title -->
                 <div class="anita-page-intro anita-offset-left--33 anita-offset--tablet-left--25" data-aos="fade-up" data-aos-delay="150">
-                    <p>BEACHHEAD (2021)
-					<br/>
-						Game description
-						<br/>
-						- First person shooter game with realistic graphics for Steam PC and VR.
-						<br/>
-						Programming contribution
-						<br/>
-						- Interface, data models and server integrations using Unity / C#. Development of databases and procedures.
-						<br/>
-						Link
-						<br/>
-						https://store.steampowered.com/app/1288790/BeachHead_2020/
+                    <p>
+						BeachHead is a first person trail shooter game with realistic graphics for Steam PC and VR. The Cube Game Studio team particaped in all game programming development steps of the game. Right now we are working on full gameplay revamp, introducing a new roguelike game mode.
 					</p>
+					
+					<p>The Steam game page can be accessed here:
+					<a href="https://store.steampowered.com/app/1288790/BeachHead_2020/" target="_blank">https://store.steampowered.com/app/1288790/BeachHead_2020/</a> </p>
                 </div>
             </section>
 
